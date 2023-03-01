@@ -1,0 +1,62 @@
+*{margin : 0; padding : 0; box-sizing: border-box; }
+
+.book_list_container{
+
+    background-color: lavender;
+    background-size: cover;
+    margin:0;
+}
+
+.book_list_container .header_book{
+
+    padding-top : 50px;
+    text-align : center;
+    line-height : 60px;
+}
+
+.header_book .book_header{
+   
+    color:crimson;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.book_list_container .books_box .books_section{
+
+    background-color: thistle;    
+    padding:10px;
+    margin-top: 100px;
+    background-size: cover;
+    display : flex;
+}
+
+.books_section .book_image{
+    margin : 30px 50px;
+}
+
+.books_section .each_book{
+    margin-top: 25px;
+}
+
+.each_book h3{
+    line-height: 40px;
+}
+
+.each_book h4{
+    margin-top : 10px;
+}
+
+.each_book .read_more,.remove{
+
+    color:green;
+    border: 2px solid green;
+    padding : 10px 15px;
+    background-color: thistle;
+    border-radius : 10px; 
+    margin-top : 25px;
+}
+
+.each_book .remove{
+    margin-left : 10px;
+}
+

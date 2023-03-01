@@ -1,0 +1,81 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;}
+
+.container{
+    background-color: lightsteelblue;
+    height : 100vh;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.box{
+    background-color:lightcyan;
+    padding:30px;
+    width:60vw;
+    height:60vh;
+}
+
+.box h1{margin-top:20px;
+    font-size:40px;
+color:red;
+text-align: center;
+}
+
+.img1{
+    margin : 30px 0 0 150px;
+}
+
+.img2{
+    margin-left : 300px ;
+}
+
+.admin_login{
+    text-decoration: none;
+    color:red;
+    background-color: white;
+    border:2px solid red; 
+    width: 150px;
+    padding : 10px 20px;
+    margin : 5px 0 0px 150px ;
+    transition : color 0.5s;
+    border-radius: 10px;
+}
+
+.admin_login a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.admin_login a:hover{
+    text-shadow : 0px 0px 2px red;
+    font-weight: bolder;
+}
+
+.admin_login:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.user_login{
+    background-color: white;
+    border: 2px solid green; width: 150px;
+    padding : 10px 20px;
+    margin : 50px 0 0 300px;
+    transition : color 0.5s;
+    border-radius: 10px;
+}
+
+.user_login a:hover{
+    text-shadow : 0px 0px 5px green;
+    font-weight: bolder;
+}
+
+.user_login a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.user_login:hover{
+    box-shadow: 0 0 10px green;
+}

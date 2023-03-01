@@ -1,0 +1,85 @@
+*{
+    margin : 0 ; padding : 0; box-sizing : border-box;
+}
+
+.book_container{
+
+    background-color:rgba(196, 232, 244, 0.717);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book_container .add_book{
+
+    background-color:thistle;
+    padding: 25px;
+    width : 40vw;
+    margin-top: 150px;
+    height : 150vh;
+    border-radius: 15px;
+}
+
+.add_book h1{
+    color:brown;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.add_book .Form_Book{
+    margin-top: 30px;
+}
+
+.Form_Book input{
+    
+    border-radius: 10px;
+    margin : 20px 80px;
+    height:40px;
+    width:400px;
+    padding: 20px ;
+    font-size: 18px;
+    border:none;
+    border-bottom: 2px solid black;
+}
+
+.Form_Book .shortDescription{
+    border-radius: 10px;
+    width:400px;
+    height:100px;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 15px 80px;
+    resize: none;
+}
+
+.Form_Book form .longDescription{
+
+    border-radius: 10px;
+    width:400px;
+    height:300px;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 15px 80px;
+    resize: none;
+}
+
+.Form_Book .bt_book{
+
+    background-color: green;
+    padding: 15px 20px;
+    color:white;
+    font-weight: bold;
+    margin: 20px 230px;
+    border: none;
+    border-radius: 5px;
+}
+.bt_book:hover{
+    box-shadow: 0 0 10px green;
+}

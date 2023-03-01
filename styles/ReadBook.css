@@ -1,0 +1,27 @@
+*{ margin : 0; padding : 0; box-sizing : border-box;}
+
+.read_book .head{
+    margin-top: 50px;
+}
+
+.read_book .heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.read_book .title_book{
+    margin:50px 25px;
+    color:red;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.read_book .paragraph{
+    margin: 20px 25px;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: justify;
+    padding : 0 30px 0 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}

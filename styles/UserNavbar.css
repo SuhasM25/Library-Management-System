@@ -1,0 +1,38 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.nav{
+    background-color: darkblue;
+    padding:20px;
+    display: flex;
+}
+
+.nav .header{
+    color:white;
+    font-weight: bolder;
+    margin-left: 200px;    
+}
+
+.nav .user_navbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left: 450px;
+}
+.user_navbar li{padding-top: 5px;}
+
+.user_navbar a{
+    text-decoration: none;
+    color:azure;
+    margin-right: 50px;
+}
+
+.user_navbar li a:hover{
+    font-weight: bold;
+    color: bisque;
+}
+
+ul li{
+    font-size: 25px;
+    color:white;
+}
+

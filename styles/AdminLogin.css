@@ -1,0 +1,67 @@
+*{margin:0;
+    padding:0;
+    box-sizing: border-box;}
+    
+    .admin_container{
+        background-color :teal;
+        background-size : cover;
+        display: flex;
+        justify-content: center;
+        align-items : center;
+        height:100vh;
+    }
+
+    .admin_box{
+        background-color:powderblue;
+        padding:30px;
+        width:30vw;
+        height:60vh;
+        border-radius: 10px;
+    }
+    
+    .admin_box h1{margin-top:20px;
+    color:red;
+    text-align: center;
+    font-size: 40px;
+    }
+   
+    .Admin_Form form .admin_email{
+        border:none;
+        padding:30px;
+        width:350px;
+        height:35px;
+        margin : 40px 0 0 30px;
+        border-radius: 10px;
+        font-size: 20px;
+        border-bottom: 2px solid black;
+    }
+
+    .Admin_Form form .admin_pwd{
+        border:none;
+        border-bottom: 2px solid black;
+        padding:30px;
+        width:350px;
+        height:35px;
+        margin :30px 0 0 30px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    .Admin_Form form .admin_login{
+        color:white;
+        background-color: green;
+        padding:25px;
+        width : 100px;
+        border:none;
+        text-shadow: 0 0 1px green;
+        box-shadow: 0 0 2px green;
+        margin-top: 40px ;
+        margin-left:150px;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    
+    .Admin_Form form .admin_login:hover{
+        font-weight: bolder;
+        box-shadow: 0 0 10px green;
+    }

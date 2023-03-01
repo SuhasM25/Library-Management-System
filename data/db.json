@@ -1,0 +1,93 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Android in Action, Second Edition",
+      "author": [
+        "Robi Sen",
+        "W. Frank Ableson"
+      ],
+      "category": "Java",
+      "pages": 100,
+      "shortDescription": "Android in Action, Second Edition is a comprehensive tutorial for Android developers. Taking you far beyond \"Hello Android,\" this fast-paced book puts you in the driver's seat as you learn important architectural concepts and implementation strategies. You'll master the SDK, build WebKit apps using HTML 5, and even learn to extend or replace Android's built-in features by building useful and intriguing examples. ",
+      "longDescription": "When it comes to mobile apps, Android can do almost anything   and with this book, so can you! Android runs on mobile devices ranging from smart phones to tablets to countless special-purpose gadgets. It's the broadest mobile platform available.    Android in Action, Second Edition is a comprehensive tutorial for Android developers. Taking you far beyond \"Hello Android,\" this fast-paced book puts you in the driver's seat as you learn important architectural concepts and implementation strategies. You'll master the SDK, build WebKit apps using HTML 5, and even learn to extend or replace Android's built-in features by building useful and intriguing examples. ",
+      "imageUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson2.jpg"
+    },
+    {
+      "title": "Object oriented perl",
+      "author": "Damian Conway",
+      "category": "OOPS",
+      "pages": "512",
+      "shortDescription": "learn advance object oriented concept in perl ",
+      "longDescription": "ject Oriented Perl is designed to provide anyone who is familiar with the basics of regular Perl programming with a complete introduction to the object-oriented features of Perl. The book moves from the very simplest applications through advanced applications such as generic programming, multiple dispatch, and object-oriented persistence. Thus, it offers a much-needed resource for persons new to Perl, as well as new and valuable insights and techniques for even the most accomplished Perl programmers.    Beyond explaining the syntax and semantics of Perl's inbuilt object-oriented features, Object Oriented Perl explains how to apply those features in a wide range of programming techniques. Each technique is illustrated with complete examples.    Object Oriented Perl also discusses the latest relevant Perl modules, which are freely available and can greatly simplify object-oriented development in Perl. In particular, it examines the new standard \\\"fields\\\" module and the associated pseudo-hash construct.    No other book covers the topic of object-oriented software development in Perl in such breadth, to such depth, or in such a readable manner. Complete source code for Object Oriented Perl is available online to owners of the book.",
+      "id": 2
+    },
+    {
+      "title": "Team Foundation Server 2008 in Action",
+      "author": "Jamil Azher",
+      "category": "Microsoft .net",
+      "pages": "150",
+      "shortDescription": "learn advance concepts of microsoft .net in an effective way",
+      "longDescription": "In complex software projects, managing the development process can be as critical to success as writing the code itself. A project may involve dozens of developers, managers, architects, testers, and customers, hundreds of builds, and thousands of opportunities to get off-track. To keep tabs on the people, tasks, and components of a medium- to large-scale project, most teams use a development system that allows for easy monitoring, follow-up, and accountability.    Microsoft Team Foundation Server 2008 (TFS), the server component of Microsoft's Visual Studio Team System (VSTS), provides a powerful collaborative platform for software-development teams. The product offers an integrated toolset for tracking work items, creating test cases, managing source code, generating builds, constructing database schemas, and so on. Because in software development one size does not fit all, TFS provides process customization, project management, and reporting capabilities to build solutions around your requirements.    Team Foundation Server 2008 in Action is a hands-on guide to Team Foundation Server 2008. Written for developers with a good handle on TFS basics, this book shows you how to solve real-life problems. It's not a repetition of Microsoft's product documentation. Team Foundation Server 2008 in Action is a practitioner's handbook for how to work with TFS under common constraints. This book walks you through real-life software engineering problems based on hundreds of hours of TFS experience.    You'll benefit from expert author Jamil Azher's extensive interactions with members of Microsoft's TFS team and MVPs, survey feedback from the author's blog, and interviews with organizations and user groups using TFS. Instead of just offering a high-level overview, the book provides detailed solutions for solving common   and not-so-common   problems using TFS. It discusses the strengths as well as weaknesses of TFS, and suggests appropriate problem resolution steps, workarounds, or custom solutions.",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "Suhas M",
+      "age": 24,
+      "Email": "suhasm123@gmail.com",
+      "Mobile": 7795213631
+    },
+    {
+      "id": 2,
+      "userName": "Prajwal P",
+      "age": 23,
+      "Email": "prajwalp@gmail.com",
+      "Mobile": 7795213584
+    },
+    {
+      "id": 4,
+      "userName": "Adarsh h v",
+      "age": 24,
+      "Email": "adarsh_hv@gmail.com",
+      "Mobile": 7795213633
+    },
+    {
+      "id": 6,
+      "userName": "sujith",
+      "age": 24,
+      "Email": "sujith123@gmail.com",
+      "Mobile": 7715213631
+    },
+    {
+      "userName": "Ashwin k s",
+      "age": "23",
+      "Email": "ashwin@gmail.com",
+      "Mobile": "7777888811",
+      "id": 7
+    },
+    {
+      "userName": "divakar",
+      "age": "22",
+      "Email": "diva@gmail.com",
+      "Mobile": "8889994422",
+      "id": 9
+    },
+    {
+      "userName": "shashi kiran",
+      "age": "23",
+      "Email": "shashikiran@gmail.com",
+      "Mobile": "9901236628",
+      "id": 10
+    },
+    {
+      "userName": "Darshan J",
+      "age": "24",
+      "Email": "darshanj@gmail.com",
+      "Mobile": "7795213666",
+      "id": 11
+    }
+  ]
+}

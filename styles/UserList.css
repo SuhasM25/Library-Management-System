@@ -1,0 +1,64 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box; 
+}
+
+.userList_container{
+    margin : 0;
+    background-color : lavender;
+    background-size : cover;
+    width : 100vw;
+    
+}
+
+.userList_container h1{
+    padding : 50px;
+    text-align : center;
+}
+
+.userList_container .user_layout{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user_layout .user_section{
+
+    background-color: rgb(222, 221, 221);
+    width : 300px;
+    height :300px;
+    border-radius : 10px;  
+    margin : 50px 100px; 
+    padding : 30px;
+    text-align: center; 
+    box-shadow: 10px 10px 10px black;
+}
+
+.user_section:hover{
+    width:320px;
+    height:320px;
+    box-shadow: 0 0 10px grey;
+}
+
+.user_section h2{
+
+    margin-top: 20px;
+}
+
+.user_section .bt_userList{
+
+    padding : 10px 15px;
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+    border:2px solid black;
+    margin-top : 15px;
+}
+
+.bt_userList:hover{
+
+    box-shadow: 0 0 10px black;
+    font-weight: bold;
+}
+

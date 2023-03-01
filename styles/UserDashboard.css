@@ -1,0 +1,139 @@
+*{
+    margin:0;padding:0;box-sizing:border-box;
+}
+
+.container_board{
+    background-color: rgb(167, 222, 223);
+    background-size: cover;
+    margin:0;
+}
+
+.container_header h1{
+    padding-top: 50px;
+    color:red;
+    font-size: 40px;
+    text-align: center;
+} 
+
+.container_board .container_user{
+    background-color: rgb(237, 235, 235);
+    width : 500px;
+    height:300px;
+    padding:30px;
+    margin : 50px auto;
+    display:flex;
+       
+}
+
+.container_user .user_property,.user_value{
+    list-style-type : none;
+    margin-top:15px;
+    font-weight: bolder;
+    
+}
+
+.user_property,.user_value li{
+    line-height: 50px;
+}
+
+.user_property li{
+    color : black; 
+}
+
+.user_value li{
+    color:green;
+}
+
+.learn_box_one{
+    background-color: darkgrey;
+    padding:25px;
+    width:60vw;
+    height:50vh;
+    margin :70px auto;
+    box-shadow : 10px 10px 10px grey;
+}
+
+.learn_box_one h1.lab{
+    margin-top:30px;
+    text-align: center;
+    color:orangered;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content_one{
+    color:darkred;
+    font-size: 22px;
+    margin-top: 40px;
+    padding-left: 25px;
+    line-height: 35px;
+}
+
+.learn_box_two{
+    background-color: darkgrey;
+    padding:35px;
+    width:60vw;
+    height:60vh;
+    margin :100px auto;
+    box-shadow : 10px 10px 20px grey;
+}
+
+.learn_box_two .learn{
+    margin : 30px auto;
+    width:150px;
+    text-align: center;
+    border-bottom : 5px solid orangered;
+    color:orangered;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.learn_box_two .linkedin_learn{
+    color:orangered;
+    padding-left : 25px;
+    margin-top:40px;
+}
+
+.learn_box_two .content_two{
+    color:darkred;
+    font-size: 22px;
+    margin-top: 30px;
+    padding : 0 25px;
+    line-height: 35px;   
+}
+
+.learn_box_two .start{
+    background-color: blueviolet;
+    color:white;
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding : 10px 15px;
+    width:200px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.learn_box_three{
+    background-color : rgb(72, 70, 70);
+    padding : 25px;
+    width : 100vw;
+    height : 30vh;
+    margin : 100px auto;
+
+}
+
+.learn_box_three p{
+    margin : 20px 50px;
+    color : white;
+    font-size : 22px;
+}
+
+.learn_box_three h5{
+    background-color: blue;
+    color:white;
+    margin : 30px 50px;
+    width : 200px;
+    padding : 10px 20px;
+    font-size: 20px;
+}

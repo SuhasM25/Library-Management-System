@@ -1,0 +1,38 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.Admin_nav{
+    background-color:mediumblue;
+    padding:20px;
+    display: flex;
+}
+
+.Admin_nav .Admin_header{
+    color:white;
+    font-weight: bolder;
+    margin-left: 150px;    
+}
+
+.Admin_nav .admin_navbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left: 250px;
+}
+.admin_navbar li{padding-top: 10px;}
+
+.admin_navbar a{
+    text-decoration: none;
+    color:azure;
+    margin-right: 30px;
+}
+
+.admin_navbar li a:hover{
+    font-weight: bold;
+    color: bisque;
+}
+
+.admin_navbar li{
+    font-size: 20px;
+    color:white;
+}
+
